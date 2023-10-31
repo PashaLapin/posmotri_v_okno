@@ -36,3 +36,49 @@ ul,
 ol {
   list-style: none;
 }
+
+.content {
+  display: grid;
+  padding: 133px 30px;
+  grid-template-columns: 1fr 399px;
+  gap: 30px;
+  align-items: end;
+}
+
+.result {
+
+}
+
+.result__video-container {
+  margin: 78px 0px 16px 0px;
+  max-height: 386px;
+  cursor: pointer;
+  max-width: 711px;
+  position: relative;
+  z-index: 1;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  justify-items: flex-start;
+}
+
+.search-form__fieldset {
+  gap: 40px;
+}
+
+.title {
+  margin-bottom: 26px;
+}
+
+.content__list {
+  overflow-y: scroll;
+  block-size: 298px;
+}
