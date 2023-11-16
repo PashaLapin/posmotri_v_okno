@@ -215,7 +215,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .title {
-  margin-bottom: 26px;
   width: 260px;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
@@ -241,10 +240,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   overflow: auto;
 }
 
-.cards-list-item-template {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .content__details {
   display: flex;
